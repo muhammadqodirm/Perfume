@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat";
+  background-color: rgb(235, 200, 112);
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header__container {
+  width: 600px;
+  height: 450px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 80px;
+}
+
+.header__container .file h2 {
+  color: var(--Aurometal-Saurus, #6c7289);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Overline */
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 5px;
+}
+
+.header__container .file h1 {
+  width: 236px;
+  color: var(--Gunmetal, #1c232b);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Display */
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 100% */
+}
+
+.header__container .file p {
+  width: 237px;
+  color: var(--Aurometal-Saurus, #6c7289);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Body */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px; /* 164.286% */
+  padding-bottom: 29px;
+}
+.header__container .span span {
+  color: var(--Deep-Aquamarine, #3d8168);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Display */
+  font-family: Fraunces;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 100% */
+}
+
+.header__container .span {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 30px;
+}
+.header__container .span .one {
+  color: var(--Aurometal-Saurus, #6c7289);
+  font-family: Montserrat;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px; /* 176.923% */
+  text-decoration: line-through;
+}
+
+.header__container button {
+  width: 236px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--Deep-Aquamarine, #3d8168);
+
+  color: var(--Pure-White, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Button Text */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  transition: all 0.5s;
+}
+
+.header__container button:hover {
+  background: #022c1d;
+}
+
+.header__container .image {
+  margin-top: 4px;
+}
+
+.header__container .image img {
+  border-radius: 5px;
+}
+
+@media (max-width: 450px;) {
+  .header__container;
+}
